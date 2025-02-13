@@ -37,3 +37,17 @@ for (i = hacker2length - 1; i >= 0; i--) {
 }
 
 console.log(hacker2Reversed)
+
+let hackersComparison = hacker1UpperCase.localeCompare(hacker2Reversed)
+
+if (hackersComparison = -1) {
+    console.log("The driver's name goes first.")
+} else if (hackersComparison = 1) {
+    console.log("Yo, the navigator goes first, definitely.")
+} else {
+    console.log("What?! You both have the same name?")
+}
+
+
+
+
